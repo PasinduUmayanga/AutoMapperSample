@@ -1,0 +1,12 @@
+C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\bin\Debug\netcoreapp2.2\DTO.deps.json
+C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\bin\Debug\netcoreapp2.2\DTO.dll
+C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\bin\Debug\netcoreapp2.2\DTO.pdb
+C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\bin\Debug\netcoreapp2.2\Entity.dll
+C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\bin\Debug\netcoreapp2.2\Entity.pdb
+C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\obj\Debug\netcoreapp2.2\DTO.csprojAssemblyReference.cache
+C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\obj\Debug\netcoreapp2.2\DTO.csproj.CoreCompileInputs.cache
+C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\obj\Debug\netcoreapp2.2\DTO.AssemblyInfoInputs.cache
+C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\obj\Debug\netcoreapp2.2\DTO.AssemblyInfo.cs
+C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\obj\Debug\netcoreapp2.2\DTO.csproj.CopyComplete
+C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\obj\Debug\netcoreapp2.2\DTO.dll
+C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\obj\Debug\netcoreapp2.2\DTO.pdb
