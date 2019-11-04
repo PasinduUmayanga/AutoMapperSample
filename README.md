@@ -30,7 +30,7 @@ This is the main repository for AutoMapper, but there's more:
 
 ![automapper depencies injecttion](https://user-images.githubusercontent.com/21302583/68111675-b48c4b00-ff15-11e9-861a-22e7eb0d1eb7.PNG)
 
-05. Add new project Class libarary(.NET Core) as Entity
+05. Add new project Class libarary(.NET Core) as `Entity`
 
 06. Create Folder Named Domain and Create Customer.cs Class File Like This
 
@@ -47,11 +47,11 @@ namespace Entity.Domain
 }
 ```
 
-07. Add new project Class libarary(.NET Core) as DTO
+07. Add new project Class libarary(.NET Core) as `DTO`
 
 ![DTO](https://user-images.githubusercontent.com/21302583/68112017-6deb2080-ff16-11e9-910d-44e8acda51c3.PNG)
 
-08.Install Automapper to DTO Libarary
+08.Install Automapper to `DTO` Libarary
 
 ![DTOAutomapper](https://user-images.githubusercontent.com/21302583/68112412-45175b00-ff17-11e9-96f8-15d257b54caa.PNG)
 
