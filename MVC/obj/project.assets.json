@@ -12172,11 +12172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PasinduUmayanga\\source\\repos\\AutoMapperExample\\MVC\\MVC.csproj",
+      "projectUniqueName": "C:\\Users\\PasinduUmayanga\\Documents\\GitHub\\AutoMapperRepository\\MVC\\MVC.csproj",
       "projectName": "MVC",
-      "projectPath": "C:\\Users\\PasinduUmayanga\\source\\repos\\AutoMapperExample\\MVC\\MVC.csproj",
+      "projectPath": "C:\\Users\\PasinduUmayanga\\Documents\\GitHub\\AutoMapperRepository\\MVC\\MVC.csproj",
       "packagesPath": "C:\\Users\\PasinduUmayanga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PasinduUmayanga\\source\\repos\\AutoMapperExample\\MVC\\obj\\",
+      "outputPath": "C:\\Users\\PasinduUmayanga\\Documents\\GitHub\\AutoMapperRepository\\MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12195,11 +12195,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\PasinduUmayanga\\source\\repos\\AutoMapperExample\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\PasinduUmayanga\\source\\repos\\AutoMapperExample\\DTO\\DTO.csproj"
+            "C:\\Users\\PasinduUmayanga\\Documents\\GitHub\\AutoMapperRepository\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\PasinduUmayanga\\Documents\\GitHub\\AutoMapperRepository\\DTO\\DTO.csproj"
             },
-            "C:\\Users\\PasinduUmayanga\\source\\repos\\AutoMapperExample\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\PasinduUmayanga\\source\\repos\\AutoMapperExample\\Entity\\Entity.csproj"
+            "C:\\Users\\PasinduUmayanga\\Documents\\GitHub\\AutoMapperRepository\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\PasinduUmayanga\\Documents\\GitHub\\AutoMapperRepository\\Entity\\Entity.csproj"
             }
           }
         }

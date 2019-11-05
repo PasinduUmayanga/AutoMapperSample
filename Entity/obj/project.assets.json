@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PasinduUmayanga\\source\\repos\\AutoMapperExample\\Entity\\Entity.csproj",
+      "projectUniqueName": "C:\\Users\\PasinduUmayanga\\Documents\\GitHub\\AutoMapperRepository\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "C:\\Users\\PasinduUmayanga\\source\\repos\\AutoMapperExample\\Entity\\Entity.csproj",
+      "projectPath": "C:\\Users\\PasinduUmayanga\\Documents\\GitHub\\AutoMapperRepository\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\PasinduUmayanga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PasinduUmayanga\\source\\repos\\AutoMapperExample\\Entity\\obj\\",
+      "outputPath": "C:\\Users\\PasinduUmayanga\\Documents\\GitHub\\AutoMapperRepository\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
