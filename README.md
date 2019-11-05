@@ -26,7 +26,7 @@ This is the main repository for AutoMapper, but there's more:
 
 `Keep Remember to Untick Configure For Https`
 
-04. Go to Tools->Nuget Package Manager->Manage Nuget Packages For Soluation and Install AutoMapper.Extensions.Microsoft.DependencyInjection
+04. Go to Tools->Nuget Package Manager->Manage Nuget Packages For Soluation and Install AutoMapper.Extensions.Microsoft.DependencyInjection To AutoMapperSample
 
 ![automapper depencies injecttion](https://user-images.githubusercontent.com/21302583/68111675-b48c4b00-ff15-11e9-861a-22e7eb0d1eb7.PNG)
 
@@ -34,51 +34,96 @@ This is the main repository for AutoMapper, but there's more:
 
 06. Create Folder Named Domain and Create Customer.cs Class File Like This
 
-```csharp
-namespace Entity.Domain
-{
-    public class Customer
+    ```csharp
+    namespace Entity.Domain
     {
-        public int id { get; set; }
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public bool isActive { get; set; }
+        public class Customer
+        {
+            public int id { get; set; }
+            public string firstName { get; set; }
+            public string lastName { get; set; }
+            public bool isActive { get; set; }
+        }
     }
-}
-```
+    ```
 
 07. Add new project Class libarary(.NET Core) as `DTO`
 
 ![DTO](https://user-images.githubusercontent.com/21302583/68112017-6deb2080-ff16-11e9-910d-44e8acda51c3.PNG)
 
-08.Install Automapper to `DTO` Libarary
+08. Install Automapper to `DTO` Libarary
 
 ![DTOAutomapper](https://user-images.githubusercontent.com/21302583/68112412-45175b00-ff17-11e9-96f8-15d257b54caa.PNG)
 
-09.In DTO Libarary Create Two folders `DTOLibarary` and `MappingProfiles`
-
-10. Add
+09. In DTO Libarary Create Two folders `DTOLibarary` and `MappingProfiles`
 
 10. Create DTOLibarary-> `CustomerDTO.cs` Like This
 
-```csharp
-namespace DTO.DTOLibary
-{
-    public class CustomerDTO
+    ```csharp
+    namespace DTO.DTOLibary
     {
-        public int id { get; set; }
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public bool isActive { get; set; }
+        public class CustomerDTO
+        {
+            public int id { get; set; }
+            public string firstName { get; set; }
+            public string lastName { get; set; }
+            public bool isActive { get; set; }
+        }
     }
-}
-```
-09.Create MappingProfiles->`DomainToDTOMapping` and `DTOToDomainMapping`
+    ```
+11. Create MappingProfiles->`DomainToDTOMapping` and `DTOToDomainMapping`
 
-```csharp
-```
+    ```csharp
+    using AutoMapper;
+    using DTO.DTOLibarary;
+    using Entity.Domain;
 
-```csharp
-```
+    namespace DTO.MappingProfiles
+    {
+        public class DomainToDTOMapping : Profile
+        {
+            public DomainToDTOMapping()
+            {
+                CreateMap<CustomerDTO, Customer>();
+            }
+        }
+    }
+
+    ```
+
+    ```csharp
+
+    using AutoMapper;
+    using DTO.DTOLibarary;
+    using Entity.Domain;
+
+    namespace DTO.MappingProfiles
+    {
+        public class DTOToDomainMapping : Profile
+        {
+            public DTOToDomainMapping()
+            {
+                CreateMap<Customer, CustomerDTO>();
+            }
+        }
+    }
+    ```
+12. Add Reference DTO and Entity Class Libararies
+    i. ![References](https://user-images.githubusercontent.com/21302583/68181488-8febae00-ffbd-11e9-8e0b-447a363d6c3b.png)
+    ii. ![Reference 2](https://user-images.githubusercontent.com/21302583/68181587-f7096280-ffbd-11e9-9482-b9b80bee2fb2.png)
+12. Modify AutoMapperSample->Startup.cs->ConfigureServices()
+
+    ```csharp
+    //Automapper Configurations
+    var config = new MapperConfiguration(cfg =>
+    {
+    cfg.AddProfile(new DTOToDomainMapping());
+    cfg.AddProfile(new DomainToDTOMapping());
+    });
+    var mapper = config.CreateMapper();
+    services.AddSingleton(mapper);
+    services.AddAutoMapper(typeof(Startup));
+    ```
+
 
 
