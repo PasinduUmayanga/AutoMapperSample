@@ -26,7 +26,7 @@ This is the main repository for AutoMapper, but there's more:
 
 `Keep Remember to Untick Configure For Https`
 
-04. Go to Tools->Nuget Package Manager->Manage Nuget Packages For Soluation and Install AutoMapper.Extensions.Microsoft.DependencyInjection To AutoMapperSample
+04. Go to Tools->Nuget Package Manager->Manage Nuget Packages For Soluation and Install AutoMapper.Extensions.Microsoft.DependencyInjection To MVC
 
 ![automapper depencies injecttion](https://user-images.githubusercontent.com/21302583/68111675-b48c4b00-ff15-11e9-861a-22e7eb0d1eb7.PNG)
 
@@ -73,6 +73,7 @@ This is the main repository for AutoMapper, but there's more:
     ```
 11. Create MappingProfiles->`DomainToDTOMapping` and `DTOToDomainMapping`
 
+    DomainToDTOMapping.cs
     ```csharp
     using AutoMapper;
     using DTO.DTOLibarary;
@@ -91,8 +92,8 @@ This is the main repository for AutoMapper, but there's more:
 
     ```
 
+    DTOToDomainMapping.cs
     ```csharp
-
     using AutoMapper;
     using DTO.DTOLibarary;
     using Entity.Domain;
@@ -108,22 +109,47 @@ This is the main repository for AutoMapper, but there's more:
         }
     }
     ```
-12. Add Reference DTO and Entity Class Libararies
-    i. ![References](https://user-images.githubusercontent.com/21302583/68181488-8febae00-ffbd-11e9-8e0b-447a363d6c3b.png)
-    ii. ![Reference 2](https://user-images.githubusercontent.com/21302583/68181587-f7096280-ffbd-11e9-9482-b9b80bee2fb2.png)
-12. Modify AutoMapperSample->Startup.cs->ConfigureServices()
+12. Add Reference DTO and Entity Class Libararies to MVC
+
+![References](https://user-images.githubusercontent.com/21302583/68181488-8febae00-ffbd-11e9-8e0b-447a363d6c3b.png)
+![Reference 2](https://user-images.githubusercontent.com/21302583/68181587-f7096280-ffbd-11e9-9482-b9b80bee2fb2.png)
+
+13. Modify MVC->Startup.cs->ConfigureServices()
 
     ```csharp
     //Automapper Configurations
     var config = new MapperConfiguration(cfg =>
     {
-    cfg.AddProfile(new DTOToDomainMapping());
-    cfg.AddProfile(new DomainToDTOMapping());
+        cfg.AddProfile(new DTOToDomainMapping());
+        cfg.AddProfile(new DomainToDTOMapping());
     });
     var mapper = config.CreateMapper();
     services.AddSingleton(mapper);
     services.AddAutoMapper(typeof(Startup));
     ```
 
+14. Now Change MVC->Controllers->HomeController.cs 
+
+```csharp
+    private IMapper _mapper;
+    
+    public HomeController(IMapper mapper)
+    {
+        this._mapper = mapper;
+    }
+    
+    public IActionResult Index()
+    {           
+        var customer = new Customer()
+        {
+            id = 1,
+            firstName = "Pasindu",
+            lastName = "Umayanga",
+            isActive = true
+        };
+        CustomerDTO customerDTO = _mapper.Map<CustomerDTO>(customer);
+        return View();
+    }
+    ```
 
 
