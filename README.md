@@ -16,7 +16,7 @@ This is the main repository for AutoMapper, but there's more:
 ## Create Project
 
 01. First Create Project File->New->Project
-02. Select ASP.NET Core Web Aplication Named `AutoMapperSample`
+02. Select ASP.NET Core Web Soluation Named `AutoMapperSample` and Name `MVC`
 
     ![project](https://user-images.githubusercontent.com/21302583/68183027-3c7b5f00-ffc1-11e9-821f-a50a3b9563b9.PNG)
 
