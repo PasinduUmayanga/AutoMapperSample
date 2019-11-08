@@ -10,3 +10,15 @@ C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\obj\Debug\netcoreapp
 C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\obj\Debug\netcoreapp2.2\DTO.csproj.CopyComplete
 C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\obj\Debug\netcoreapp2.2\DTO.dll
 C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\DTO\obj\Debug\netcoreapp2.2\DTO.pdb
+D:\Personal\GitHub Samples\AutoMapperSample\DTO\bin\Debug\netcoreapp2.2\DTO.deps.json
+D:\Personal\GitHub Samples\AutoMapperSample\DTO\bin\Debug\netcoreapp2.2\DTO.dll
+D:\Personal\GitHub Samples\AutoMapperSample\DTO\bin\Debug\netcoreapp2.2\DTO.pdb
+D:\Personal\GitHub Samples\AutoMapperSample\DTO\bin\Debug\netcoreapp2.2\Entity.dll
+D:\Personal\GitHub Samples\AutoMapperSample\DTO\bin\Debug\netcoreapp2.2\Entity.pdb
+D:\Personal\GitHub Samples\AutoMapperSample\DTO\obj\Debug\netcoreapp2.2\DTO.csprojAssemblyReference.cache
+D:\Personal\GitHub Samples\AutoMapperSample\DTO\obj\Debug\netcoreapp2.2\DTO.csproj.CoreCompileInputs.cache
+D:\Personal\GitHub Samples\AutoMapperSample\DTO\obj\Debug\netcoreapp2.2\DTO.AssemblyInfoInputs.cache
+D:\Personal\GitHub Samples\AutoMapperSample\DTO\obj\Debug\netcoreapp2.2\DTO.AssemblyInfo.cs
+D:\Personal\GitHub Samples\AutoMapperSample\DTO\obj\Debug\netcoreapp2.2\DTO.csproj.CopyComplete
+D:\Personal\GitHub Samples\AutoMapperSample\DTO\obj\Debug\netcoreapp2.2\DTO.dll
+D:\Personal\GitHub Samples\AutoMapperSample\DTO\obj\Debug\netcoreapp2.2\DTO.pdb

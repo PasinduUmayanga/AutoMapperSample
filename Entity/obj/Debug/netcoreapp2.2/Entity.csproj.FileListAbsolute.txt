@@ -7,3 +7,11 @@ C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\Entity\obj\Debug\netcore
 C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\Entity\obj\Debug\netcoreapp2.2\Entity.AssemblyInfo.cs
 C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\Entity\obj\Debug\netcoreapp2.2\Entity.dll
 C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\Entity\obj\Debug\netcoreapp2.2\Entity.pdb
+D:\Personal\GitHub Samples\AutoMapperSample\Entity\bin\Debug\netcoreapp2.2\Entity.deps.json
+D:\Personal\GitHub Samples\AutoMapperSample\Entity\bin\Debug\netcoreapp2.2\Entity.dll
+D:\Personal\GitHub Samples\AutoMapperSample\Entity\bin\Debug\netcoreapp2.2\Entity.pdb
+D:\Personal\GitHub Samples\AutoMapperSample\Entity\obj\Debug\netcoreapp2.2\Entity.csproj.CoreCompileInputs.cache
+D:\Personal\GitHub Samples\AutoMapperSample\Entity\obj\Debug\netcoreapp2.2\Entity.AssemblyInfoInputs.cache
+D:\Personal\GitHub Samples\AutoMapperSample\Entity\obj\Debug\netcoreapp2.2\Entity.AssemblyInfo.cs
+D:\Personal\GitHub Samples\AutoMapperSample\Entity\obj\Debug\netcoreapp2.2\Entity.dll
+D:\Personal\GitHub Samples\AutoMapperSample\Entity\obj\Debug\netcoreapp2.2\Entity.pdb

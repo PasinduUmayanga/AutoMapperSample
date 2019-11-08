@@ -32,3 +32,37 @@ C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\MVC\obj\Debug\netcoreapp
 C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\MVC\obj\Debug\netcoreapp2.2\MVC.csproj.CopyComplete
 C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\MVC\obj\Debug\netcoreapp2.2\MVC.dll
 C:\Users\PasinduUmayanga\source\repos\AutoMapperExample\MVC\obj\Debug\netcoreapp2.2\MVC.pdb
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\bin\Debug\netcoreapp2.2\MVC.deps.json
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\bin\Debug\netcoreapp2.2\MVC.runtimeconfig.json
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\bin\Debug\netcoreapp2.2\MVC.runtimeconfig.dev.json
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\bin\Debug\netcoreapp2.2\MVC.dll
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\bin\Debug\netcoreapp2.2\MVC.pdb
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\bin\Debug\netcoreapp2.2\MVC.Views.dll
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\bin\Debug\netcoreapp2.2\MVC.Views.pdb
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\bin\Debug\netcoreapp2.2\DTO.dll
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\bin\Debug\netcoreapp2.2\Entity.dll
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\bin\Debug\netcoreapp2.2\DTO.pdb
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\bin\Debug\netcoreapp2.2\Entity.pdb
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.csprojAssemblyReference.cache
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.csproj.CoreCompileInputs.cache
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.RazorAssemblyInfo.cache
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.RazorAssemblyInfo.cs
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.AssemblyInfoInputs.cache
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.AssemblyInfo.cs
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.TagHelpers.input.cache
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.TagHelpers.output.cache
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.RazorCoreGenerate.cache
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.RazorTargetAssemblyInfo.cache
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.RazorTargetAssemblyInfo.cs
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.Views.pdb
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.csproj.CopyComplete
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.dll
+D:\Personal\GitHub Samples\AutoMapperSample\MVC\obj\Debug\netcoreapp2.2\MVC.pdb
