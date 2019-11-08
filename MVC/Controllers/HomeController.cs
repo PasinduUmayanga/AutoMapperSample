@@ -20,8 +20,8 @@ namespace MVC.Controllers
             var customer = new Customer()
             {
                 id = 1,
-                firstName = "Pasindu",
-                lastName = "Umayanga",
+                firstName = "Test",
+                lastName = "User",
                 isActive = true
             };
             CustomerDTO customerDTO = _mapper.Map<CustomerDTO>(customer);
