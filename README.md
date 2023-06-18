@@ -7,7 +7,6 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=PasinduUmayanga_AutoMapperSample&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=PasinduUmayanga_AutoMapperSample)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=PasinduUmayanga_AutoMapperSample&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=PasinduUmayanga_AutoMapperSample)
 [![Build status](https://ci.appveyor.com/api/projects/status/9ia1fpge700cs0lg?svg=true)](https://ci.appveyor.com/project/Mahadenamuththa/automappersample-sxysn)
-
 [![Build history](https://buildstats.info/appveyor/chart/Mahadenamuththa/automappersample-sxysn)](https://ci.appveyor.com/project/Mahadenamuththa/automappersample-sxysn/history)
 
 ### What is AutoMapper?
